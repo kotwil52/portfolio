@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    About me
+
+                </li>
+
+                <li> <a href="contact/contact.html">Contact</a> 
+
+                </li>
+
+                <li>
+                    Other
+
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="form-background">
+
+        <button id="changeBackground" onclick="backgroundColor()"> <a href="../index.html">return to the main page</a> </button>
+    <div class="form">  
+        <h1 class="contact-header"> Contact</h1>
+<form action="https://formsubmit.co/kotwil@wp.pl" method="POST" >
+
+    
+
+                    <div class="field">
+                            <div class="control has-icons-left">
+<input name="user-name" class="input is-hovered" type="text" placeholder="Name" required>
+
+<span class="icon is-medium is-left">
+
+<i class="fas fa-user-tag"></i>
+</span>
+
+
+
+
+</div>
+    </div>
+
+<div class="field">
+<div class="control has-icons-left ">
+<input name="user-email" class="input is-hovered" type="email" placeholder="email" required>
+<span class="icon is-medium is-left">
+    <i class="fas fa-envelope"></i>
+  </span>
+</div>
+</div>
+
+<label>topic <select name="topic">
+    <option value="work">work</option>
+    <option value="other">other</option>
+</select></label>
+<textarea class="textarea is-warning" placeholder="write a message" required></textarea>
+
+</div> 
+
+<input  class="btn" type="submit" value="Send email" >
+</form>
+
+        <!--  <img src="image-background/palet.jpg">
+        // change gallery by button fo randomnes
+
+-->
+    </section>
+
+    <footer>
+
+    </footer>
+    <script src="js-interactive.js"></script>
+
+</body>
+
+</html>
